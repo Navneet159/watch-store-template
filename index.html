@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="responsive.css">
     <title>Document</title>
 </head>
 
@@ -44,16 +45,16 @@
 
         input {
             border: 2px solid #979899;
-            height: 40px;
-            width: 440px;
+            height: 43px;
+            width: 100%;
             color: #979899;
 
         }
 
         .btn-subscribe {
             position: absolute;
-            top: 23px;
-            right: 90px;
+            top: -43px;
+            left: 150px;
 
         }
     </style>
@@ -62,7 +63,7 @@
         <div class="container pt-5 pb-5">
             <div class="row justify-content-around">
                 <div class="col-sm-6">
-                    <div class="col-7 ">
+                    <div class="col-sm-8 col-7 ">
                         <p class="h3 yellow">Join Our Email List</p>
                         <p class="text-color ">
                             Join the form.Well Send You Exclusive Sales,
@@ -71,22 +72,26 @@
                     </div>
                 </div>
 
-                <div class="col-sm-6 pt-4 position-relative">
+                <div class="col-sm-6 col-12 pt-4 position-relative">
                     <form action="">
-
-                        <input class="bg-dark m-0 p-0" type="text" value="Enter Your Email">
-
-                        <button class="btn bg-white rounded-0 text-dark px-3 py-2 mb-1 fw-bold btn-subscribe">SUBSCRIBE
-                        </button>
+                        <div class="col-sm-8 col-6">
+                            <input class="bg-dark m-0 p-0" type="text" value="Enter Your Email">
+                        </div>
+                        <div class="col-sm-4 col-6 position-relative">
+                            <button
+                                class="btn bg-white rounded-0 text-dark px-3 py-2 mb-1 fw-bold btn-subscribe">SUBSCRIBE
+                            </button>
+                        </div>
                     </form>
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-sm-3 text-color">
+                <div class="col-sm-3  col-8 text-color">
                     <div class=" mb-3">
-                        <img src="https://cdn.shopify.com/s/files/1/0758/3868/5466/files/Group.png?v=1685802949" alt=""
-                            height="15px" width="15px" class="img-fluid"></i>
-                        <span>WATCH</span>
+                        <p class="fw-bold h4 mt-2 ">
+                            <img src="https://cdn.shopify.com/s/files/1/0758/3868/5466/files/Group.png?v=1685802949"
+                                alt="" height="25px" width="20px" class="mt-1"></i> WATCH
+                        </p>
                     </div>
                     <p>Condimentum Adispiscing Vel Neque Dis Nam
                         Partuient Orci At Scelerisque Neque Dis
@@ -102,7 +107,7 @@
                         <i class="fa-brands fa-linkedin"></i>
                     </p>
                 </div>
-                <div class="col-sm-3 text-color ps-5">
+                <div class="col-sm-3 col-12 text-color ps-5  recent-post ">
                     <div class="col-sm-8">
                         <p class="yellow">RECENT POSTS</p>
                         <div class="d-flex">
@@ -124,7 +129,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-2 text-color">
+                <div class="col-sm-2 col-12 text-color">
                     <p class="yellow">SHOP US</p>
                     <p>Shop Men</p>
                     <p>Shop Women</p>
@@ -132,7 +137,7 @@
                     <p>New Arrivals</p>
                     <p>Trending</p>
                 </div>
-                <div class="col-sm-2 text-color">
+                <div class="col-sm-2 col-12 text-color">
                     <P class="yellow">USEFUL LINKS</P>
                     <p>Privacy Policy</p>
                     <p>About Us</p>
@@ -142,7 +147,7 @@
                     <p>Store Directory</p>
 
                 </div>
-                <div class="col-sm-2 text-color">
+                <div class="col-sm-2 col-12 text-color">
                     <p class="yellow">CUSTOMER CARE</p>
                     <p>My Account</p>
                     <p>Track Your Order</p>

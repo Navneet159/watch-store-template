@@ -1,0 +1,12 @@
+@media only screen and (min-width:375px) and (max-width:768px) {
+    .btn-subscribe {
+        left: 150px !important;
+        /* width: 10px !important; */
+        margin-right: 0 !important;
+    }
+
+    .recent-post {
+        padding-left: 0px !important;
+    }
+
+}
